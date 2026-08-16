@@ -38,3 +38,18 @@ while q < 6:
     q+=1
 else:
     print("q is no longer less than 6")
+
+y = 0
+while y<3:
+    z = 0
+    while z<3:
+        if z % 2 == 1 and y % 2 == 1: 
+            print("1-1")
+        elif z % 2 == 1 and y % 2 ==0:
+            print("1-0")
+        elif z % 2 == 0 and y % 2 == 1: 
+            print("0-1")
+        elif z % 2 == 0 and y % 2 ==0:
+            print("0-0")    
+        z+=1 
+    y+=1    
